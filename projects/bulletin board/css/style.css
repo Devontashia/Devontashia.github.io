@@ -13,7 +13,7 @@
 }
 
 .post-it {
-    background-color: #fff8a8; /* soft default yellow */
+    background-color: #fff8a8; 
     display: inline-block;
     width: 260px;
     height: 260px;
@@ -24,7 +24,7 @@
     box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
 }
 
-/* THIS MUST BE OUTSIDE .post-it */
+
 .split {
     padding: 24px;
     margin: 24px;
