@@ -1,0 +1,51 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+  img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.post-it {
+    background-color: #fff8a8; /* soft default yellow */
+    display: inline-block;
+    width: 260px;
+    height: 260px;
+    font-family: sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* THIS MUST BE OUTSIDE .post-it */
+.split {
+    padding: 24px;
+    margin: 24px;
+    display: inline-block;
+    width: 200px;
+}
+
+/* Color variations */
+.post-it.yellow {
+    background-color: #fff8a8;
+}
+
+.post-it.blue { 
+    background-color: #cfe8ff;
+}
+
+.post-it.pink {
+    background-color: #ffd1e8;
+}
+
+.icon {
+    margin: 12px 8px 24px;
+    display: block;
+}
