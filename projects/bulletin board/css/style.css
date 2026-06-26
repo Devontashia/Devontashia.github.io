@@ -1,13 +1,19 @@
 /*
     NOTE TO STUDENTS: 
-
     This is the file you should be writing your CSS in 
     for the Bulletin Board assignment.
-
     Good luck, and have fun!
 */
-
-  img {
+#bulletin-board {
+    background-image: url("../images/corkboard.jpg"); 
+    /* or whatever image you want */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    min-height: 600px;
+}
+img {
     width: 100px;
     object-fit: cover;
 }
@@ -21,17 +27,8 @@
     margin: 24px;
     padding: 24px;
     vertical-align: top;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
-
-
-.split {
-    padding: 24px;
-    margin: 24px;
-    display: inline-block;
-    width: 200px;
-}
-
 /* Color variations */
 .post-it.yellow {
     background-color: #fff8a8;
@@ -44,7 +41,6 @@
 .post-it.pink {
     background-color: #ffd1e8;
 }
-
 .icon {
     margin: 12px 8px 24px;
     display: block;
