@@ -1,0 +1,32 @@
+/* Container */
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: #222;
+    font-size: 0px;
+}
+
+/* Base block */
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+/* Colors */
+.red {
+    background-color: #ff4d4d;
+}
+
+.blue {
+    background-color: #4d79ff;
+}
+
+.green {
+    background-color: #4dff88;
+}
+
+.yellow {
+    background-color: #ffe44d;
+}
