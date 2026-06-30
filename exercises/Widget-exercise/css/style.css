@@ -1,11 +1,11 @@
- * {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
- }
- body {
+}
+body {
     font: sans-serif;
- }
+}
 /* WEATHER WIDGET */
 #weather {
     width: 300px;
@@ -123,4 +123,3 @@
     border-radius: 8px;
     margin-right: 5px;
 }
-
