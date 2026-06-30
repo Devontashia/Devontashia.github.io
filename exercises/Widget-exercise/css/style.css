@@ -34,89 +34,93 @@
     vertical-align: middle;
 }
 
-/* CALENDAR WIDGET */
+/* Calendar Container */
 #calendar {
     width: 300px;
-    border-radius: 12px;
-    border: 2px solid #ccc;
+    border-radius: 10px;
+    border: 2px solid #ddd;
     padding: 20px;
     margin: 20px auto;
 }
 
-.title {
-    color: #4a90e2;
+/* Title */
+.cal-title {
+    color: #444;
 }
 
-.subtitle {
+/* Description */
+.cal-desc {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.event {
-    border-left: 4px solid #4a90e2;
+/* Shared Box Style */
+.cal-box {
+    border-left: 4px solid #a3c4f3;
     padding: 10px;
-    background-color: #f7f7f7;
-    margin-bottom: 10px;
+    background-color: #f7f9fc;
 }
 
-.event h5 {
-    color: #4a90e2;
+/* h5 inside boxes */
+.cal-box h5 {
+    color: #4a6fa5;
 }
 
-.event h4 {
-    font-size: 24px;
+/* h4 inside boxes */
+.cal-box h4 {
+    font-size: 20px;
     margin: 5px 0;
 }
 
-.event p {
+/* p inside boxes */
+.cal-box p {
     color: #555;
     font-size: 14px;
 }
 
-.highlight {
-    border-left: 4px solid #e24a4a;
-    background-color: #ffecec;
-    padding: 10px;
-    margin-top: 10px;
+/* Second Box Additional Styling */
+.cal-box-two {
+    border-left: 4px solid #f3a3c4;
+    padding: 12px;
+    background-color: #fdf2f7;
+    margin-top: 15px;
 }
 
-.highlight h5 {
-    color: #e24a4a;
+/* h5 inside second box */
+.cal-box-two h5 {
+    color: #a54a6f;
 }
-
-/* MUSIC WIDGET */
+/* Music Container */
 #music {
     margin: 20px auto;
     width: 300px;
 }
 
-.now-playing {
-    background-color: #4a90e2;
-    color: white;
-    border-radius: 12px;
+/* Shared Box Style */
+.music-box {
+    background-color: #f7f9fc;
+    color: #333;
+    border-radius: 10px;
     padding: 15px;
+    margin-bottom: 15px;
 }
 
-.now-playing img {
-    width: 80px;
+/* Image inside first box */
+.music-box img:first-child {
+    width: 70px;
     vertical-align: middle;
 }
 
-.info {
+/* Inner info div */
+.music-info {
     display: inline-block;
     margin-left: 10px;
 }
 
-.playlist {
-    background-color: #f7f7f7;
-    color: #333;
-    border-radius: 12px;
-    padding: 15px;
-    margin-top: 15px;
-}
-
-.playlist img {
+/* Second box images */
+.music-box img {
     width: 60px;
     border-radius: 8px;
     margin-right: 5px;
 }
+
