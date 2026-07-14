@@ -11,13 +11,17 @@ body {
     margin: 0px auto;
 }
 #hero-1 {
-    width: max-content; 
-}
-#hero-1 {
    height: 100vh;
     background-image: url("../images/misty-mountains.jpg");
     background-size: cover;
-    background-position: ;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-1 .content {
+    width: max-content; 
 }
 .content  .btn {
     display: inline-block;
@@ -29,7 +33,7 @@ body {
 
 #hero-2 {
     height: 100vh;
-    background-color: url("../images/lonely-ocean.jpg");
+    background-image: url("../images/lonelyocean.jpg");
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -42,7 +46,7 @@ body {
 }
 #hero-3 {
     height: 100hv;
-    background-image: url("../images/placid-waters.jpg");
+    background-image: url("../images/placidwater.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
